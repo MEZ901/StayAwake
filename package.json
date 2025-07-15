@@ -1,0 +1,36 @@
+{
+  "name": "stayawake",
+  "version": "1.0.0",
+  "description": "A simple Node.js script that prevents your system from sleeping by simulating periodic Shift key presses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MEZ901/StayAwake.git"
+  },
+  "keywords": [
+    "stay-awake",
+    "prevent-sleep",
+    "keep-awake",
+    "idle-prevention",
+    "keyboard-simulation",
+    "shift-key",
+    "no-sleep",
+    "system-awake",
+    "anti-idle",
+    "auto-keypress",
+    "automation"
+  ],
+  "author": "MEZ901",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MEZ901/StayAwake/issues"
+  },
+  "homepage": "https://github.com/MEZ901/StayAwake#readme",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "robotjs": "^0.6.0"
+  }
+}
