@@ -55,7 +55,8 @@ rl.question(
 
     const keepAwake = () => {
       robot.keyTap("shift");
-      console.log("🔄 Shift key pressed.");
+      const currentTime = new Date().toLocaleString("en-GB", { hour12: false });
+      console.log(`[${currentTime}] 🔄 Shift key pressed`);
     };
 
     keepAwake();
